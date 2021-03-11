@@ -1,0 +1,21 @@
+.progress{
+  text-align: center;
+  padding-left:586px;
+}
+.barOverflow{ 
+  position: relative;
+  overflow: hidden; 
+  width: 90px; height: 45px; 
+  margin-bottom: -14px;
+}
+.bar{
+  position: absolute;
+  top: 0; left: 0;
+  width: 90px; height: 90px; 
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 5px solid #eee;     
+  border-bottom-color: #0bf;
+  border-right-color: #0bf;
+ 
+}
